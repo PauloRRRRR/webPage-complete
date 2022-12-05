@@ -38,7 +38,7 @@ body {
     background-color: rgb(5, 108, 108);
 }
 .header> img{
-    width: 180vh;
+    width: 100vh;
 }
 .content {
     background-color: white;
@@ -54,6 +54,10 @@ body {
     flex-direction: row;
 }
 
+.empresaContent{
+    color: #f1f1f1;
+}
+
 table{
     margin: 0;
     padding: 0;
@@ -66,6 +70,15 @@ table, td, th, tfoot {
 }
 th {
     background-color:#999;
+}
+
+.footerContent {
+    color: #f1f1f1;
+}
+
+.footerContent > div > img {
+    width: 105vh;
+    height: 200px;
 }
 
 
